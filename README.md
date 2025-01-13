@@ -19,7 +19,19 @@ This project demonstrates object detection using the YOLOv8 model. The program d
 
 ## Folder Structure
 
-ENV/ ├── Include/ ├── Lib/ ├── Scripts/ ├── share/ ├── sub_objects/ # Cropped sub-object images are saved here ├── annotated_sample.jpg # Annotated image with bounding boxes ├── detect_objects.py # Main Python script for object detection ├── output.json # JSON file with object and sub-object details ├── README.md # Project documentation ├── sample.jpeg # Input image for object detection ├── yolov8n.pt # Pre-trained YOLOv8 model weights
+ENV/
+├── Include/
+├── Lib/
+├── Scripts/
+├── share/
+├── sub_objects/             # Cropped sub-object images are saved here
+├── annotated_sample.jpg     # Annotated image with bounding boxes
+├── detect_objects.py        # Main Python script for object detection
+├── output.json              # JSON file with object and sub-object details
+├── README.md                # Project documentation
+├── sample.jpeg              # Input image for object detection
+├── yolov8n.pt               # Pre-trained YOLOv8 model weights
+
 
 ---
 
